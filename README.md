@@ -40,7 +40,4 @@ Ensure you have [Node.js](http://nodejs.org/) installed, then install all the bu
 - `npm run dev` to start the dev server on watch mode at `localhost:9000`.
 - `npm run build` to generate a minified, production-ready build, in the `public` folder
 
-if everything goes well, on running the dev server for the first time you should see this :
-![boilerplate-helloworld](https://user-images.githubusercontent.com/4033090/134762171-6e1fac3d-8b41-4665-890b-daa217ba61dc.png)
-
 > Note: when generating the production build, Webpack will attempt to filter files under the data folder to only copy final assets and ignore project files (e.g. .ftpp project files from Free Texture Packer). If you find your file being wrongly ignore you can easily add the corresponding extension in the [webpack.config.js](webpack.config.js) file

@@ -1,8 +1,8 @@
 {
-  "name": "melonjs-es6-boilerplate",
+  "name": "woflstepper",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Olivier Biot",
+  "author": "Nick & Rory",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.17.3",
