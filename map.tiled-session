@@ -1,0 +1,26 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        }
+    },
+    "last.externalTilesetPath": "C:/Users/drnic/OneDrive/Documents/Wolfstepper/code/src/data/map",
+    "last.imagePath": "C:/Users/drnic/OneDrive/Documents/Wolfstepper/code/src/data/img/map",
+    "map.height": 15,
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": null,
+    "map.width": 20,
+    "openFiles": [
+    ],
+    "project": "map.tiled-project",
+    "recentFiles": [
+    ],
+    "tileset.embedInMap": true
+}

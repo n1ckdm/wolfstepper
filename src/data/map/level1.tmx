@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" backgroundcolor="#8d2224" nextlayerid="4" nextobjectid="32">
+ <tileset firstgid="1" source="mainlev_build.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="20" height="15">
+  <data encoding="base64">
+   tQAAACcBAACNAQAAiAEAAFIAAAAnAQAAKwAAAMUAAAAxAQAAUgAAAEgAAADTAAAAjQEAAEgAAAAVAQAA0wAAAHMAAACiAAAAaAEAAK8AAAASAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjgEAAIgAAABzAAAApAAAAKIAAAANAAAAqQAAAOUBAABoAQAAaAEAAKkAAABCAAAApwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKMAAADSAQAAtQAAACoBAADCAAAAFQEAAIgAAAAqAQAAKgEAAHMAAABtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsQAAAGsAAABtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAagAAALIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADPAQAAogAAAFABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACjAAAAyQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHQAAABzAAAAEgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMgBAACiAAAArgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGkAAAAkAAAAAAAAAAAAAABqAQAA5QAAAK4AAAAAAAAAiwEAAHMAAACiAAAA8QEAAEIAAAANAAAAaAEAAOUAAAD0AAAA4wAAAAAAAAAAAAAAKQAAAFABAAAAAAAAAAAAAMMAAABzAAAAogAAAGcBAAAAAAAAjgEAAAIBAACIAQAAiAAAAMkAAABIAAAAJwEAAHMAAAASAgAAAAAAAAAAAADGAQAAMwAAAAAAAAAAAAAAAAAAANQAAABzAAAAMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyAEAAKIAAACoAAAAAAAAAMgBAAAkAAAAAAAAAAAAAAAAAAAAAAAAAM8BAACiAAAA8AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADRAAAAcwAAAKIAAADtAQAAYwAAAHUAAAAAAAAAAAAAAAAAAAAAAAAAwwAAAHMAAACiAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsAQAAcwAAAFABAADIAQAAzQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiQEAAHMAAACiAAAAbQEAAOIAAAD0AAAA8QEAAOMAAAAAAAAAAAAAAAAAAADNAAAARwAAAGkAAABHAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAigEAABUBAABLAAAAxQAAAIgBAABzAAAAogAAABACAAAAAAAAAAAAAAAAAABEAAAAxQAAAKIAAABoAQAA5QAAAO4BAACpAAAA5QEAAPEBAADuAQAArwAAAAAAAAAAAAAAAAAAANEBAAAFAgAAogAAAA0AAADxAQAA4gAAAPQAAAALAAAA
+  </data>
+ </layer>
+ <objectgroup id="2" name="entities">
+  <object id="4" name="mainPlayer" x="29.4894" y="14.1315" width="64" height="64">
+   <properties>
+    <property name="framewidth" value="64"/>
+    <property name="image" value="rory_ninja"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="collision">
+  <object id="5" x="-0.5" y="0.5" width="18.5" height="478.5"/>
+  <object id="6" x="15" y="463" width="256.5" height="16"/>
+  <object id="7" x="399.5" y="449.5" width="61" height="27.5"/>
+  <object id="8" x="461.5" y="460" width="177.5" height="20"/>
+  <object id="9" x="624" y="6" width="15.5" height="424.5"/>
+  <object id="10" x="592" y="5" width="42" height="176.5"/>
+  <object id="11" x="527" y="-1.5" width="85.5" height="44.5"/>
+  <object id="12" x="11" y="0.5" width="521.5" height="13.5"/>
+  <object id="13" x="10.5" y="77.5" width="260.5" height="32.5"/>
+  <object id="14" x="239.5" y="97" width="33.5" height="143"/>
+  <object id="15" x="263" y="204" width="37.5" height="43"/>
+  <object id="16" x="291.5" y="237.5" width="184.5" height="32.5"/>
+  <object id="17" x="478.5" y="241" width="49" height="47.5"/>
+  <object id="18" x="497.5" y="292" width="46.5" height="53"/>
+  <object id="19" x="544.5" y="304.5" width="16" height="14"/>
+  <object id="20" x="544" y="321.5" width="18.5" height="40.5"/>
+  <object id="21" x="525.5" y="347" width="61" height="26.5"/>
+  <object id="22" x="556.5" y="373" width="34.5" height="27"/>
+  <object id="23" x="592.5" y="419" width="38.5" height="14"/>
+  <object id="24" x="560" y="330.5" width="29.5" height="21"/>
+  <object id="25" x="113" y="241" width="71" height="48.5"/>
+  <object id="26" x="159.5" y="274.5" width="43.5" height="56.5"/>
+  <object id="27" x="187.5" y="324" width="47" height="53.5"/>
+  <object id="28" x="214.5" y="366.5" width="54" height="46"/>
+  <object id="29" x="241.5" y="394" width="176" height="38.5"/>
+  <object id="30" x="397" y="422" width="65.5" height="25.5"/>
+ </objectgroup>
+</map>
